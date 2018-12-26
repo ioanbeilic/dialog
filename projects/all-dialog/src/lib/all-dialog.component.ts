@@ -1,15 +1,15 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'lib-material-dialog',
+  selector: 'lib-all-dialog',
   template: `
     <p>
-      material-dialog works!
+      all-dialog works!
     </p>
   `,
   styles: []
 })
-export class MaterialDialogComponent implements OnInit {
+export class AllDialogComponent implements OnInit {
 
   constructor() { }
 

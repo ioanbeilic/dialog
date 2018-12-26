@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MaterialDialogComponent } from './material-dialog.component';
+import { AllDialogComponent } from './all-dialog.component';
 
-describe('MaterialDialogComponent', () => {
-  let component: MaterialDialogComponent;
-  let fixture: ComponentFixture<MaterialDialogComponent>;
+describe('AllDialogComponent', () => {
+  let component: AllDialogComponent;
+  let fixture: ComponentFixture<AllDialogComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MaterialDialogComponent ]
+      declarations: [ AllDialogComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(MaterialDialogComponent);
+    fixture = TestBed.createComponent(AllDialogComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

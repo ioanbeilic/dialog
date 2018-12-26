@@ -134,33 +134,33 @@
         }
       }
     },
-    "material-dialog": {
-      "root": "projects/material-dialog",
-      "sourceRoot": "projects/material-dialog/src",
+    "all-dialog": {
+      "root": "projects/all-dialog",
+      "sourceRoot": "projects/all-dialog/src",
       "projectType": "library",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/material-dialog/tsconfig.lib.json",
-            "project": "projects/material-dialog/ng-package.json"
+            "tsConfig": "projects/all-dialog/tsconfig.lib.json",
+            "project": "projects/all-dialog/ng-package.json"
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/material-dialog/src/test.ts",
-            "tsConfig": "projects/material-dialog/tsconfig.spec.json",
-            "karmaConfig": "projects/material-dialog/karma.conf.js"
+            "main": "projects/all-dialog/src/test.ts",
+            "tsConfig": "projects/all-dialog/tsconfig.spec.json",
+            "karmaConfig": "projects/all-dialog/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/material-dialog/tsconfig.lib.json",
-              "projects/material-dialog/tsconfig.spec.json"
+              "projects/all-dialog/tsconfig.lib.json",
+              "projects/all-dialog/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

@@ -24,6 +24,12 @@
       ],
       "material-dialog/*": [
         "dist/material-dialog/*"
+      ],
+      "all-dialog": [
+        "dist/all-dialog"
+      ],
+      "all-dialog/*": [
+        "dist/all-dialog/*"
       ]
     }
   }
