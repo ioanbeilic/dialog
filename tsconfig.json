@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "material-dialog": [
+        "dist/material-dialog"
+      ],
+      "material-dialog/*": [
+        "dist/material-dialog/*"
+      ]
+    }
   }
 }
